@@ -3,3 +3,5 @@
 debug/
 bin/debug/
 PayOrg/bin/debug/
+PayOrg/ui/payorg/node_modules/.cache/
+PayOrg/bin/Debug/
