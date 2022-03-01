@@ -5,3 +5,8 @@ bin/debug/
 PayOrg/bin/debug/
 PayOrg/ui/payorg/node_modules/.cache/
 PayOrg/bin/Debug/
+PayOrg/bin/Debug/netcoreapp3.1/
+PayOrg/obj/Debug/netcoreapp3.1/PayOrg.csproj.AssemblyReference.cache
+PayOrg/obj/Debug/netcoreapp3.1/PayOrg.csproj.AssemblyReference.cache
+PayOrg/obj/Debug/netcoreapp3.1/PayOrg.GeneratedMSBuildEditorConfig.editorconfig
+PayOrg/ui/payorg/node_modules/.cache/.eslintcache
