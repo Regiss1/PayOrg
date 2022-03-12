@@ -40,7 +40,7 @@ namespace PayOrg.Controllers
                 registerResponse.Message = "E-mail already in use. " + 
                                            "Please use the password recovery"+
                                            " if you forgot this account password.";
-                return BadRequest(registerResponse);
+                return Ok(registerResponse);
             }
             else
             {

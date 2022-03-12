@@ -1,0 +1,54 @@
+import React, { useState } from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+
+export default function Login() {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+  
+    function validateForm() {
+      return email.length > 0 && password.length > 0;
+    }
+  
+    function handleSubmit(event) {
+      event.preventDefault();
+
+    }
+    const mystyle = {
+        color: "white",
+        backgroundColor: "Black",
+        padding: "10px",
+        fontFamily: "Arial",
+        marginTop: "10px",
+        border: "25%"
+      };
+  
+    return (
+        
+      <div className="Login" class="d-flex justify-content-middle m-6">
+        <Form onSubmit={handleSubmit}>
+          <Form.Group  controlId="email" >
+            <Form.Label>Email</Form.Label>
+            <Form.Control
+              placeholder="E-mail"
+              autoFocus
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </Form.Group>
+          <Form.Group size="lg" controlId="password" >
+            <Form.Label>Password</Form.Label>
+            <Form.Control placeholder="Password"
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </Form.Group>
+          <Button style={mystyle} type="submit" disabled={!validateForm()}>
+            Login
+          </Button>
+        </Form>
+      </div>
+    );
+  }

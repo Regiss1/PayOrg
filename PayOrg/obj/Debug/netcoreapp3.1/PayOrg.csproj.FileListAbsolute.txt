@@ -30,6 +30,5 @@ C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\obj\Debug\netcoreapp3.1\PayOrg.MvcA
 C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\bin\Debug\netcoreapp3.1\ui\payorg\package.json
 C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\bin\Debug\netcoreapp3.1\ui\payorg\package-lock.json
 C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\bin\Debug\netcoreapp3.1\ui\payorg\public\manifest.json
-C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\bin\Debug\netcoreapp3.1\PayOrg.StaticWebAssets.xml
 C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\obj\Debug\netcoreapp3.1\PayOrg.csproj.AssemblyReference.cache
 C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\obj\Debug\netcoreapp3.1\PayOrg.GeneratedMSBuildEditorConfig.editorconfig
