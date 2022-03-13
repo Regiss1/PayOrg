@@ -45,7 +45,7 @@ export default class Register extends Component {
 
             e.preventDefault();
 
-            let apiResponse = await CreateUser();
+            let apiResponse = await CreateUser(this.state.email, this.state.password);
             console.log(apiResponse);
             this.setState({
                 response: apiResponse
@@ -69,8 +69,7 @@ export default class Register extends Component {
                 <div className="Register d-flex justify-content-middle m-6">
                     <h3>Registration Page</h3>
                 </div>
-                {this.state.response.message != null && this.state.response.statuscode != 200  &&<div style={{color: 'red'}}>{this.state.response.message}</div>}
-                {this.state.response.message != null &&  this.state.response.statuscode === 200 && <div style={{color: 'red'}}>{this.state.response.message}</div>}
+                {this.state.response.message != null  && <div style={{color: 'green'}}>{this.state.response.message}</div>}
                 <Form onSubmit={this.handleSubmit}>
                     <Form.Group controlId="email">
                         <Form.Label> Email </Form.Label>
