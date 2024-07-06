@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = PayOrg
-build_property.ProjectDir = C:\Users\Regis-Pc\source\repos\PayOrg\PayOrg\
+build_property.ProjectDir = D:\Projetos GIt\PayOrg\PayOrg\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

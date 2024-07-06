@@ -1,35 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Regis-Pc\\source\\repos\\PayOrg\\PayOrg\\PayOrg.csproj": {}
+    "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Regis-Pc\\source\\repos\\PayOrg\\PayOrg\\PayOrg.csproj": {
+    "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Regis-Pc\\source\\repos\\PayOrg\\PayOrg\\PayOrg.csproj",
+        "projectUniqueName": "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj",
         "projectName": "PayOrg",
-        "projectPath": "C:\\Users\\Regis-Pc\\source\\repos\\PayOrg\\PayOrg\\PayOrg.csproj",
+        "projectPath": "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj",
         "packagesPath": "C:\\Users\\Regis-Pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Regis-Pc\\source\\repos\\PayOrg\\PayOrg\\obj\\",
+        "outputPath": "D:\\Projetos GIt\\PayOrg\\PayOrg\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Regis-Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,11 +34,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -62,20 +64,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
