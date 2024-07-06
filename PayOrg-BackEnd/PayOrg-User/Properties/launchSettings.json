@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "PayOrg": {
+    "PayOrgUser": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "Ping",

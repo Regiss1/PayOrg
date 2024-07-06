@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj": {}
+    "D:\\Projetos GIt\\PayOrg\\PayOrg-BackEnd\\PayOrg-User\\PayOrgUser.csproj": {}
   },
   "projects": {
-    "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj": {
+    "D:\\Projetos GIt\\PayOrg\\PayOrg-BackEnd\\PayOrg-User\\PayOrgUser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj",
-        "projectName": "PayOrg",
-        "projectPath": "D:\\Projetos GIt\\PayOrg\\PayOrg\\PayOrg.csproj",
+        "projectUniqueName": "D:\\Projetos GIt\\PayOrg\\PayOrg-BackEnd\\PayOrg-User\\PayOrgUser.csproj",
+        "projectName": "PayOrgUser",
+        "projectPath": "D:\\Projetos GIt\\PayOrg\\PayOrg-BackEnd\\PayOrg-User\\PayOrgUser.csproj",
         "packagesPath": "C:\\Users\\Regis-Pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos GIt\\PayOrg\\PayOrg\\obj\\",
+        "outputPath": "D:\\Projetos GIt\\PayOrg\\PayOrg-BackEnd\\PayOrg-User\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Regis-Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,13 +49,9 @@
               "target": "Package",
               "version": "[2.0.123, )"
             },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.2.7, )"
-            },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.3, )"
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
