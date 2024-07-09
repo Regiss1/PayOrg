@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using PayOrgUser;
 
 namespace PayOrg.Controllers
 {
@@ -13,13 +14,19 @@ namespace PayOrg.Controllers
     [ApiController]
     public class PingController : BaseController
     {
+
+        private QueueServices queueServices = new QueueServices();
         public PingController(ILogger<LoginController> logger, IConfiguration config) : base(logger, config)
         {
         }
         [HttpGet]
         public string Get()
         {
-            return "API em funcionamento";
+            
+            Random r = new Random();
+            queueServices.CreateMessage(r.Next(0, 1000).ToString());
+            return "API em funcionamento com docker";
+
         }
     }
 }

@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PayOrg.Repository;
+using PayOrgUser;
 
 namespace PayOrg
 {
@@ -26,7 +27,8 @@ namespace PayOrg
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            InjetarRepositorios(services);
+            InjectRepositories(services);
+            InjectServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,10 +49,15 @@ namespace PayOrg
                 endpoints.MapControllers();
             });
         }
-        private static void InjetarRepositorios(IServiceCollection services)
+        private static void InjectRepositories(IServiceCollection services)
         {
             services.AddTransient<RegisterRepository, RegisterRepository>();
             services.AddTransient<LoginRepository, LoginRepository>();
+        }
+        private static void InjectServices(IServiceCollection services)
+        {
+            services.AddTransient<IDatabaseService, DatabaseService>();
+            services.AddTransient<IQueueServices, QueueServices>();
         }
         }
 }
