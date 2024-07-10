@@ -39,7 +39,7 @@ class QueueServices : IQueueServices
 
         channel.BasicPublish(
             exchange: string.Empty,
-            routingKey: "user",
+            routingKey: "PayOrg_User",
             basicProperties: null,
             body: body
         );
