@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace PayOrg.Responses
+namespace PayOrgUser.Responses
 {
     public class BaseResponse
     {

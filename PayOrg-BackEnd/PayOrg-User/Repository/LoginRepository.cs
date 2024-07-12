@@ -1,12 +1,12 @@
 ﻿using Dapper;
 using Microsoft.Extensions.Configuration;
-using PayOrg.Models;
-using PayOrg.Responses;
+using PayOrgUser.Models;
+using PayOrgUser.Responses;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using PayOrgUser.Services;
 
-namespace PayOrg.Repository
+namespace PayOrgUser.Repository
 {
     public class LoginRepository : BaseRepository
     {

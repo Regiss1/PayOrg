@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 
-namespace PayOrg.Repository
+namespace PayOrgUser.Repository
 {
     public abstract class BaseRepository
     {

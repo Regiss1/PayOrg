@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using PayOrg.Models;
-using PayOrg.Repository;
-using PayOrg.Responses;
+using PayOrgUser.Models;
+using PayOrgUser.Repository;
+using PayOrgUser.Responses;
 
-namespace PayOrg.Controllers
+namespace PayOrgUser.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
