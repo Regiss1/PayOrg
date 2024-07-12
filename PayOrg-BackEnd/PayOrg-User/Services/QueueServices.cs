@@ -2,7 +2,7 @@
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using PayOrg.Responses;
+using PayOrgUser.Responses;
 using RabbitMQ.Client;
 using Newtonsoft.Json;
 namespace PayOrgUser.Services;

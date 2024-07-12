@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Dapper;
-using static PayOrg.Controllers.RegisterController;
-using PayOrg.Models;
-using PayOrg.Responses;
+using static PayOrgUser.Controllers.RegisterController;
+using PayOrgUser.Models;
+using PayOrgUser.Responses;
 
-namespace PayOrg.Repository
+namespace PayOrgUser.Repository
 {
     public class RegisterRepository : BaseRepository
     {
