@@ -2,6 +2,7 @@
 using System.Net;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using PayOrgUser.Services;
 
 namespace PayOrgUser;
 
@@ -22,8 +23,8 @@ class DatabaseService : IDatabaseService
     public async Task<HttpStatusCode> Insert(QueryParameters queryParameters, User payOrgUser = null){
         
         string message = JsonConvert.SerializeObject(new {user = payOrgUser, queryParameters = queryParameters});
-        var task = await _queueServices.CreateMessage(message);
-        return task;
+        //var task = await _queueServices.CreateMessage(message);
+        throw new NotImplementedException();
     }
      public async Task<HttpStatusCode> Update(QueryParameters queryParameters, User payOrgUser){
         

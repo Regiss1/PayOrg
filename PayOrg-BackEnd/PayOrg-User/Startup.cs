@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PayOrg.Repository;
 using PayOrgUser;
+using PayOrgUser.Services;
 
 namespace PayOrg
 {
