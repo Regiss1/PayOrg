@@ -2,8 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using PayOrg.Models;
 using PayOrg.Responses;
-using PayOrgUser;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using PayOrgUser.Services;
 
 namespace PayOrg.Repository
 {
@@ -30,6 +31,8 @@ namespace PayOrg.Repository
 
             });
 
+            string message =  JsonConvert.SerializeObject(loginResponse);
+            _qServices.CreateMessage(message);
             return loginResponse;
             
 
