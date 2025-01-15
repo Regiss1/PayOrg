@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace PayOrg.Controllers
+namespace PayOrgUser.Controllers
 {
     public class BaseController : Controller
     {

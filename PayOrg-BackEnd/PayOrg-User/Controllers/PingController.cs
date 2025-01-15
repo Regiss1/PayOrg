@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using System.Globalization;
 using PayOrgUser.Services;
 
-namespace PayOrg.Controllers
+namespace PayOrgUser.Controllers
 {
     [Route("[controller]")]
     [ApiController]
